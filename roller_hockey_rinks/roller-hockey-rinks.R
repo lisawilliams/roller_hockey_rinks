@@ -59,7 +59,14 @@ map3 <- map2 +
     aes(x = Longitude, y = Latitude), color = "red", 
     size = .5, alpha = 1)
 
-map3 
+map3 + theme(panel.background = element_rect(fill = "lightblue"),
+             panel.grid.minor = element_line(color="lightblue"),
+             panel.grid.major = element_line(color="lightblue"),
+             axis.title.x = element_blank(),
+             axis.text.x = element_blank(),
+             axis.ticks.x = element_blank(),
+             axis.title.y = element_blank(),
+             axis.text.y = element_blank())
 
 # this produces a world map with some dots in the right place, but it's a map of the whole world
 # so not too useful for our purposes
