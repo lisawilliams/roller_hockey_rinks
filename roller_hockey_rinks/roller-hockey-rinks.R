@@ -1,5 +1,5 @@
 pacman::p_load(dplyr, tidyr, janitor, tidyr, ggplot2, rio, here, geofacet, DT, RColorBrewer, ggiraph, readr, forcats)
-pacman::p_load(leaflet, glue, sf, tmap, tmaptools, tidycensus, ggmap, htmltools, htmlwidgets, maps)
+pacman::p_load(leaflet, glue, sf, tmap, tmaptools, tidycensus, ggmap, htmltools, htmlwidgets, maps, mapview)
 pacman::p_load_gh(c("walkerke/tigris", "bhaskarvk/leaflet.extras")) 
 
 library(ggplot2)
@@ -73,6 +73,41 @@ map3 + theme(panel.background = element_rect(fill = "lightblue"),
 
 # need to find a way to show the region we want, zoomed in 
 # might try this 
-# https://map-rfun.library.duke.edu/01_georeference.html
+# `https://map-rfun.library.duke.edu/01_georeference.html`      
 
-  
+roller_rinks_ma_map <- mapview(roller_rinks_ma, xcol = "Longitude", ycol = "Latitude", crs = 4269, grid = FALSE)
+
+#this makes a readable, interactive map which is pretty cool for one line o' code
+
+#display map
+roller_rinks_ma_map
+
+# when I put in the new data I get the following error message: 
+# Error in data[[y]] * aspect : non-numeric argument to binary operator
+
+# let's check the classes 
+
+sapply(roller_rinks_ma, class)
+
+# OK I see the problem, Latitude column now reads as "character" while
+# Longitude is numeric 
+
+# this is how I did it w the MA Contractors data
+# veteran_owned_contractors_ma$Actual_Spend <-parse_number(veteran_owned_contractors_ma$Actual_Spend)
+
+roller_rinks_ma$Latitude <- parse_number(roller_rinks_ma$Latitude)
+
+#let's see if that works
+
+sapply(roller_rinks_ma, class)
+
+#OK now Latitude and Longitude are both numeric so let's try plotting again 
+
+roller_rinks_ma_map <- mapview(roller_rinks_ma, xcol = "Longitude", ycol = "Latitude", crs = 4269, grid = FALSE)
+
+
+roller_rinks_ma_map
+
+# this works 
+
+

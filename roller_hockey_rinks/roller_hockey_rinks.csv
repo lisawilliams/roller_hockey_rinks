@@ -1,28 +1,30 @@
-Park ,Address,City ,State,Full_Address,Skated,Star Rating,Note,Size,Latitude,Longitude
-Willie O'Ree Community Rink,235 Western Avenue,Boston,MA,235 Western Avenue Boston MA,✅,⭐⭐⭐⭐,,Full size,42.363617,-71.131927
-Christopher Dyson Memorial Rink,22 Walworth Street,Boston,MA,22 Walworth Street Boston MA,,,,,42.287273,-71.136661
-Joe Moakley Park,1005 Columbia Road,Boston,MA,1005 Columbia Road Boston MA,,,,,42.32725,-71.05039
-Edwards Park,10 Eden Street,Boston,MA,10 Eden Street Boston MA,,,,,42.379486,-71.068068
-Ryan Playground,75 Alford Street,Boston,MA,75 Alford Street Boston MA,,,,,42.38559,-71.07232
-Byrne Playground,23 Everett Street ,Boston,MA,23 Everett Street  Boston MA,,,,,42.36825,-71.036744
-McKinney Playground,74 Faneuil Street,Boston,MA,74 Faneuil Street Boston MA,,,Not enclosed,,42.355056,-71.152794
-Garvey Playground,340 Neponset Avenue,Boston,MA,340 Neponset Avenue Boston MA,,,,,42.287828,-71.045512
-Kelly Outdoor Rink,1 Marbury Terrace,Boston,MA,1 Marbury Terrace Boston MA,,,,,42.318159,-71.102214
-Porzio Park,14 Jeffries Street,Boston,MA,14 Jeffries Street Boston MA,,,,,42.365103,-71.028933
-Ahern Field,259 Charles Street,Cambridge,MA,259 Charles Street Cambridge MA,,,,,42.3688,-71.086704
-Corporal Burns Park,32 Flagg Street,Cambridge,MA,32 Flagg Street Cambridge MA,,,,,42.3673,-71.11494
-Rivergreen Park,1 Rivergreen Drive,Everett,MA,1 Rivergreen Drive Everett MA,,,,,42.40981,-71.0695
-Highland Park,150 Fleming Street,Lowell,MA,150 Fleming Street Lowell MA,,,,,42.624259,-71.336754
-Reynolds Playground,49 Lime Street,Marblehead,MA,49 Lime Street Marblehead MA,,,,,42.507666,-70.853108
-Hormel Park,90 Locust Street ,Medford,MA,90 Locust Street  Medford MA,✅,⭐⭐⭐⭐,,Full size,42.408095,-71.093025
-Akekel Veterans' Park,123 Milk Street ,Methuen,MA,123 Milk Street  Methuen MA,,,,,42.737312,-71.151243
-Ipswich River Park,15 Central Street,North Reading,MA,15 Central Street North Reading MA,,,,,42.570857,-71.086084
-Collins Cove Park,32 Collins Street,Salem,MA,32 Collins Street Salem MA,,,,,42.529198,-70.887752
-Stella Tirell Park,50 Central Street,South Weymouth,MA,50 Central Street South Weymouth MA,,,,,42.1721,-70.950064
-Cedarwood Playground,25 Intervale Road,Waltham,MA,25 Intervale Road Waltham MA,,,,,42.366891,-71.262686
-Bobby Connors Playground,20 Sunnyside Street,Waltham,MA,20 Sunnyside Street Waltham MA,✅,⭐⭐⭐⭐,,Mini rink,42.359692,-71.262998
-Moxley Field,54 Westminster Avenue,Watertown,MA,54 Westminster Avenue Watertown MA,✅,⭐⭐⭐,some pitting,Mini rink,42.371966,-71.19307
-Casey Field,70 Watertown Street,Watertown ,MA,70 Watertown Street Watertown  MA,,,,,42.363835,-71.188738
-Leland Park,63 Harrison Street,Woburn,MA,63 Harrison Street Woburn MA,,,,,42.454198,-71.150975
-Balch Street Playground,13 Balch Street,Beverly ,MA,13 Balch Street Beverly  MA,,,,,42.55843,-70.88422
-Brill Field,29 Island Avenue,Quincy,Ma,"29 Island Ave, Quincy, MA ",,,,Full size,42.2509914,-71.0037374
+Park ,Full_Address,Address,City ,State,Skated,Star Rating,Note,Size,Latitude,Longitude
+Willie O'Ree Community Rink,235 Western Avenue Boston MA,235 Western Avenue,Boston,MA,✅,⭐⭐⭐⭐,,Full size,42.363617,-71.131927
+Christopher Dyson Memorial Rink,22 Walworth Street Boston MA,22 Walworth Street,Boston,MA,,,,,42.287273,-71.136661
+Joe Moakley Park,1005 Columbia Road Boston MA,1005 Columbia Road,Boston,MA,✅,⭐️⭐️⭐️,"Some cracking of sealant, trash ",,42.32725,-71.05039
+Edwards Park,10 Eden Street Boston MA,10 Eden Street,Boston,MA,,,,,42.379486,-71.068068
+Ryan Playground,75 Alford Street Boston MA,75 Alford Street,Boston,MA,,⁉️,does this rink exist tho,,42.38559,-71.07232
+Byrne Playground,23 Everett Street  Boston MA,23 Everett Street ,Boston,MA,,,,,42.301819,-71.054074
+McKinney Playground,74 Faneuil Street Boston MA,74 Faneuil Street,Boston,MA,,,Not enclosed,,42.355056,-71.152794
+Garvey Playground,340 Neponset Avenue Boston MA,340 Neponset Avenue,Boston,MA,,,,,42.287828,-71.045512
+Kelly Outdoor Rink,1 Marbury Terrace Boston MA,1 Marbury Terrace,Boston,MA,,,,,42.318159,-71.102214
+Porzio Park,14 Jeffries Street Boston MA,14 Jeffries Street,Boston,MA,,,,,42.365103,-71.028933
+Ahern Field,259 Charles Street Cambridge MA,259 Charles Street,Cambridge,MA,,,,,42.3688,-71.086704
+Corporal Burns Park,32 Flagg Street Cambridge MA,32 Flagg Street,Cambridge,MA,,,,,42.3673,-71.11494
+Rivergreen Park,1 Rivergreen Drive Everett MA,1 Rivergreen Drive,Everett,MA,,,,,42.40981,-71.0695
+Highland Park,150 Fleming Street Lowell MA,150 Fleming Street,Lowell,MA,,,,,42.624259,-71.336754
+Reynolds Playground,49 Lime Street Marblehead MA,49 Lime Street,Marblehead,MA,,,,,42.507666,-70.853108
+Hormel Park,90 Locust Street  Medford MA,90 Locust Street ,Medford,MA,✅,⭐⭐⭐⭐,,Full size,42.408095,-71.093025
+Akekel Veterans' Park,123 Milk Street  Methuen MA,123 Milk Street ,Methuen,MA,,,,,42.737312,-71.151243
+Ipswich River Park,15 Central Street North Reading MA,15 Central Street,North Reading,MA,,,,,42.570857,-71.086084
+Collins Cove Park,32 Collins Street Salem MA,32 Collins Street,Salem,MA,,,,,42.529198,-70.887752
+Stella Tirell Park,50 Central Street South Weymouth MA,50 Central Street,South Weymouth,MA,,,,,42.1721,-70.950064
+Cedarwood Playground,25 Intervale Road Waltham MA,25 Intervale Road,Waltham,MA,,,,,42.366891,-71.262686
+Bobby Connors Playground,20 Sunnyside Street Waltham MA,20 Sunnyside Street,Waltham,MA,✅,⭐⭐⭐⭐,Shady in afternoon!,Mini rink,42.359692,-71.262998
+Moxley Field,54 Westminster Avenue Watertown MA,54 Westminster Avenue,Watertown,MA,✅,⭐⭐⭐,some pitting,Mini rink,42.371966,-71.19307
+Casey Field,70 Watertown Street Watertown  MA,70 Watertown Street,Watertown ,MA,,,,,42.363835,-71.188738
+Leland Park,85 Central Street Woburn MA,85 Central Street,Woburn,MA,,,,,42.47677,-71.1254
+Balch Street Playground,13 Balch Street Beverly  MA,13 Balch Street,Beverly ,MA,,,,,42.55843,-70.88422
+Brill Field,29 Island Avenue Quincy MA,29 Island Avenue,Quincy,MA,,,,Full size,42.2509914,-71.0037374
+Coughlin Park,31 Bay View Avenue Winthrop MA,31 Bay View Avenue,Winthrop,MA,,,,,42.377815,-70.981133
+Hampton Skate Park,1 Hardart's Way Hampton NH,1 Hardart's Way,Hampton,NH,,,,,42.9304376,-70.824896
